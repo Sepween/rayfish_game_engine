@@ -1,0 +1,33 @@
+# New rendering.config functionalities
+- "enable_lighting"
+- "ambient_intensity"
+- "ambient_color"
+- "block_size"
+
+# Lighting system functionalities
+- "OnStart"
+- "OnUpdate"
+- "OnDestroy"
+
+- "key"
+- "enabled"
+- "actor"
+
+- "x"
+- "y"
+- "GetPosition"
+- "SetPosition"
+
+- "radius"
+
+- "direction"
+- "angle"
+
+- "cast_shadows"
+- "num_rays"
+- "light_type"
+
+- "r"
+- "g"
+- "b"
+- "a"

@@ -1,0 +1,50 @@
+{
+    "actors": [
+			{
+				"name": "LightDirObject",
+				"components": {
+					"LightComp": {
+						"type": "Light",
+						"light_type": "directional",
+						"angle": 50,
+						"r": 100,
+						"g": 255,
+						"b": 100
+					},
+					"key": {
+						"type": "KeyboardControls"
+					}
+				}
+			},
+		{
+			"name": "ground_cube",
+			  "components": {
+				  "1": {
+					  "type": "Rigidbody",
+					  "body_type": "static",
+					  "x":2,
+					  "has_trigger":false
+				  },
+				  "2": {
+					  "type": "SpriteRenderer",
+					  "sprite": "box2"
+				  }
+			}
+		},
+		{
+			"name": "ground_cube2",
+			  "components": {
+				  "1": {
+					  "type": "Rigidbody",
+					  "body_type": "static",
+					  "x":-2,
+					  "has_trigger":false
+				  },
+				  "2": {
+					  "type": "SpriteRenderer",
+					  "sprite": "box2"
+				  }
+			}
+		}
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "actors": [
+      {
+        "name": "LightObject",
+        "components": {
+          "LightComp": {
+            "type": "Light",
+            "radius": 1
+          },
+          "1": {
+            "type": "Transform"
+          },
+          "2": {
+            "type": "KeyboardControls"
+          }
+        }
+      }
+    ]
+}

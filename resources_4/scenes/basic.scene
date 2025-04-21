@@ -1,0 +1,73 @@
+{
+  "actors": [
+    {
+      "name": "lightcomp",
+      "components": {
+        "LightComp": {
+          "type": "Light",
+          "radius": 3,
+          "g": 0,
+          "b": 0,
+          "r": 255
+        },
+        "1": {
+          "type": "Transform",
+          "x": -2
+        }
+      }
+    },
+    {
+      "name": "lightcomp2",
+      "components": {
+        "LightComp": {
+          "type": "Light",
+          "radius": 3,
+          "g": 200,
+          "b": 255,
+          "r": 0
+        },
+        "1": {
+          "type": "Transform",
+          "x": 2
+        }
+      }
+    },
+    {
+				"name": "lightcomp3",
+				"components": {
+					"LightComp": {
+						"type": "Light",
+						"light_type": "directional",
+						"angle": 70,
+						"r": 255,
+						"g": 230,
+						"b": 0,
+            "radius": 20,
+            "intensity": 0.7
+					},
+          "1": {
+            "type": "Transform",
+            "y": -2.5
+          }
+				}
+			},
+    {
+      "name": "wall",
+      "components": {
+        "1": {
+          "type": "Rigidbody",
+          "body_type": "kinematic",
+          "has_trigger": false,
+          "y": 0.5
+        },
+        "2": {
+          "type": "SpriteRenderer",
+          "sprite": "box1"
+        },
+        "3":{
+          "type": "Mover"
+        }
+      }
+    }
+  ]
+}

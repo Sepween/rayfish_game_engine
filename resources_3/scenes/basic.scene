@@ -1,0 +1,54 @@
+{
+    "actors": [
+      {
+        "name": "lightcomp",
+        "components": {
+          "LightComp": {
+            "type": "Light",
+            "radius": 2,
+            "g": 0,
+            "b": 0,
+            "r": 255
+          },
+          "1": {
+            "type": "Transform"
+          },
+          "2": {
+            "type": "KeyboardControls"
+          }
+        }
+      },
+      {
+        "name": "lightcomp2",
+        "components": {
+          "LightComp": {
+            "type": "Light",
+            "radius": 2,
+            "g": 0,
+            "b": 255,
+            "r": 0
+          },
+          "1": {
+            "type": "Transform",
+            "x": 2,
+            "y": 1
+          }
+        }
+      },
+      {
+        "name": "wall",
+        "components": {
+          "1": {
+            "type": "Rigidbody",
+            "body_type": "kinematic",
+            "has_trigger": false,
+            "y": 0.5
+          },
+          "2": {
+            "type": "SpriteRenderer",
+            "sprite": "box1"
+          }
+        }
+      }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "actors": [
+    {
+      "name": "LightDirObject",
+      "components": {
+        "LightComp": {
+          "type": "Light",
+          "light_type": "directional",
+          "angle": 50
+        },
+        "key": {
+          "type": "KeyboardControls"
+        }
+      }
+    }
+  ]
+}
