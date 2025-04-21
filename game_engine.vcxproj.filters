@@ -594,7 +594,4 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="C:\Users\Lenovo\Downloads\9-1\resources\component_types\SpriteRenderer.lua" />
-  </ItemGroup>
 </Project>

@@ -348,9 +348,6 @@
     <ClCompile Include="ThirdParty\Lua\lvm.c" />
     <ClCompile Include="ThirdParty\Lua\lzio.c" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="C:\Users\Lenovo\Downloads\9-1\resources\component_types\SpriteRenderer.lua" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
